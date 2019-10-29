@@ -18,6 +18,6 @@
 ###	Для учителей и учеников
 
 ###	человек разбирается в коде
-####	источники [https://github.com/hakimel/reveal.js/blob/master/README.md][1], [2]: http://qaru.site/tags/reveal.js/info 
+####	источники [1](https://github.com/hakimel/reveal.js/blob/master/README.md), [2]: http://qaru.site/tags/reveal.js/info 
 	[1]файл README.md(с англ. на рус.) инструкция разработчиков, [2] чужой перевод,[3] мой перевод
-	[1]: http://example.com/ "Необязательная подсказка"
+
