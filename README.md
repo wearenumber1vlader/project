@@ -71,7 +71,7 @@
 - [License](#license)
 ## Инструкции
 ### Разметка
->[1]Here's a barebones example of a fully working reveal.js presentation:
+[1]Here's a barebones example of a fully working reveal.js presentation:
 ```html
 <html>
 	<head>
@@ -93,6 +93,18 @@
 </html>
 ```
 </html>
-
->>[2]Иерархия разметки должна быть <div class="reveal"> <div class="slides"> <section>, где <section> представляет один слайд и может повторяться бесконечно. Если вы поместите несколько <section> внутри другого <section>, они будут показаны как вертикальные слайды. Первым из вертикальных слайдов является "корень" остальных (вверху), и он будет включен в горизонтальную последовательность. Например:
 >
+>>[2]Иерархия разметки должна быть `.reveal > .slides > section`, где `<section>` представляет один слайд и может повторяться бесконечно. Если вы поместите несколько `<section>` внутри другого `<section>`, они будут показаны как вертикальные слайды. Первым из вертикальных слайдов является "корень" остальных (вверху), и он будет включен в горизонтальную последовательность. Например:
+```
+<div class="reveal">
+	<div class="slides">
+		<section>Single Horizontal Slide</section>
+		<section>
+			<section>Vertical Slide 1</section>
+			<section>Vertical Slide 2</section>
+		</section>
+	</div>
+</div>
+```
+>[3]без изменений
+
