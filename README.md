@@ -11,6 +11,7 @@
 ### Цели
 Создать веб-презентацию
 ### Задачи
+1.	Сравнить способы создания презентанций
 
 Сравнение
 
@@ -20,7 +21,7 @@
 
 ###	человек разбирается в коде
 ####	источники [1]https://github.com/hakimel/reveal.js/blob/master/README.md), [2]http://qaru.site/tags/reveal.js/info
-[1](https://github.com/hakimel/reveal.js/blob/master/README.md)файл README.md(с англ. на рус.) инструкция разработчиков, [2](http://qaru.site/tags/reveal.js/info) чужой перевод 2014,[3] мой перевод
+[1](https://github.com/hakimel/reveal.js/blob/master/README.md)файл README.md(с англ. на рус.) инструкция разработчиков, [2](http://qaru.site/tags/reveal.js/info) чужой перевод 2014,[3] мой перевод, комментарии
 - [Редактор Интернета](#Для учителей и учеников)
 - [Installation](#installation)
   - [Basic setup](#basic-setup)
@@ -95,17 +96,6 @@
 ```
 </html>
 
->> [2]Иерархия разметки должна быть `.reveal > .slides > section`, где `<section>` представляет один слайд и может повторяться бесконечно. Если вы поместите несколько `<section>` внутри другого `<section>`, они будут показаны как вертикальные слайды. Первым из вертикальных слайдов является "корень" остальных (вверху), и он будет включен в горизонтальную последовательность. Например:
-
-> 	<div class="reveal">
-		<div class="slides">
-			<section>Single Horizontal Slide</section>
-			<section>
-				<section>Vertical Slide 1</section>
-				<section>Vertical Slide 2</section>
-			</section>
-		</div>
-	</div>
-
+>> [2]Иерархия разметки должна быть , где `<section>` представляет один слайд и может повторяться бесконечно. Если вы поместите несколько `<section>` внутри другого `<section>`, они будут показаны как вертикальные слайды. Первым из вертикальных слайдов является "корень" остальных (вверху), и он будет включен в горизонтальную последовательность. Например:
 
 
